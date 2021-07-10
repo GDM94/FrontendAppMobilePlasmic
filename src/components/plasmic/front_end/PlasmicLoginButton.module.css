@@ -1,0 +1,14 @@
+.root {
+  width: 121px;
+  height: 31px;
+  position: relative;
+  color: #9b900b /* plasmic-token: x_ewZQX22 */;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  background: #ffffff repeat;
+  border: 1px solid #9b900b /* plasmic-token: x_ewZQX22 */;
+}
+.root:hover {
+  background: #bbbbc7;
+}

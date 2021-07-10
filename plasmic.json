@@ -1,0 +1,101 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "k5kJvsPRoLouUiqztENREe",
+      "projectName": "FrontEnd",
+      "version": "latest",
+      "cssFilePath": "plasmic/front_end/plasmic_front_end.module.css",
+      "components": [
+        {
+          "id": "4DQxbyq351Fv",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "k5kJvsPRoLouUiqztENREe",
+          "renderModuleFilePath": "plasmic/front_end/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/front_end/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "xLJRmZlMxT",
+          "name": "Topbar",
+          "type": "managed",
+          "projectId": "k5kJvsPRoLouUiqztENREe",
+          "renderModuleFilePath": "plasmic/front_end/PlasmicTopbar.jsx",
+          "importSpec": {
+            "modulePath": "Topbar.jsx"
+          },
+          "cssFilePath": "plasmic/front_end/PlasmicTopbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GlgkEs0yZx",
+          "name": "LoginButton",
+          "type": "managed",
+          "projectId": "k5kJvsPRoLouUiqztENREe",
+          "renderModuleFilePath": "plasmic/front_end/PlasmicLoginButton.jsx",
+          "importSpec": {
+            "modulePath": "LoginButton.jsx"
+          },
+          "cssFilePath": "plasmic/front_end/PlasmicLoginButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kwhioOgxT1",
+          "name": "SingUpButton",
+          "type": "managed",
+          "projectId": "k5kJvsPRoLouUiqztENREe",
+          "renderModuleFilePath": "plasmic/front_end/PlasmicSingUpButton.jsx",
+          "importSpec": {
+            "modulePath": "SingUpButton.jsx"
+          },
+          "cssFilePath": "plasmic/front_end/PlasmicSingUpButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "js4byY2i3uVZoTjyHXxjvV0MrxN4LIxCe3j3jGfQwYiIPeUJiM8ETQyAqeTqFrfy2Z10SeZUgZE6y2ZtFvr7Hg"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "gpmNSjesdFJ4",
+        "name": "Screen",
+        "projectId": "k5kJvsPRoLouUiqztENREe",
+        "contextFilePath": "plasmic/front_end/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}

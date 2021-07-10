@@ -1,0 +1,59 @@
+.root {
+  display: block;
+  height: 51px;
+  position: relative;
+  background: #b8b4b4 repeat;
+}
+.appTitle {
+  height: auto;
+  width: 102px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: unset;
+  bottom: 0;
+}
+.box__okYnG {
+  position: relative;
+  font-family: Trade Winds;
+  font-weight: 700;
+  color: #9b900b /* plasmic-token: x_ewZQX22 */;
+  text-align: left;
+  align-self: auto;
+  height: auto;
+}
+.box__cj4V3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  left: auto;
+  top: 0;
+  width: 275px;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+.box__cj4V3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: unset;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.box__cj4V3 > :global(.__wab_flex-container) > *,
+.box__cj4V3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 5px;
+}
+.singUpButton:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.loginButton:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
